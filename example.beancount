@@ -1,0 +1,50 @@
+;; -*- mode: beancount -*-
+
+2013-10-01 open Liabilities:CreditCard:Amex
+2013-10-01 open Expenses:Recurring:Spotify
+2013-10-01 open Expenses:Food
+2013-10-01 open Expenses:Shopping
+2013-10-01 open Expenses:Grocery
+2013-10-01 open Expenses:Movies
+
+2013-11-01 * "SPOTIFY USA         28770130901 / 2600720879  WWW.SPOTIFY.COM"
+  Liabilities:CreditCard:Amex  -9.99 USD
+  Expenses:Recurring:Spotify
+
+2013-11-02 * "GOAT TOWN 1200000549NEW YORK / 071000163   2126873641"
+  Liabilities:CreditCard:Amex  -61.71 USD
+  Expenses:Food
+
+2013-11-02 * "AMC VILLAGE 7 #2110 NEW YORK / 12010365699 212-982-2116"
+  Liabilities:CreditCard:Amex  -17.75 USD
+  Expenses:Movies
+
+2013-11-09 * "UNION MARKET -  HOUSNEW YORK / 15827       GROCERY STORE"
+  Liabilities:CreditCard:Amex  -34.38 USD
+  Expenses:Grocery
+
+2013-11-09 * "SUNSHINE CINEMA 5429NEW YORK / 208001222   2122607289"
+  Liabilities:CreditCard:Amex  -13.5 USD
+  Expenses:Movies
+
+2013-11-11 * "UNION MARKET -  HOUSNEW YORK / 13775       GROCERY STORE"
+  Liabilities:CreditCard:Amex  -21.96 USD
+  Expenses:Grocery
+
+2013-11-11 * "WHOLEFDS HOU 10236 02124201320 / 042002720272124201320"
+  Liabilities:CreditCard:Amex  -14.47 USD
+  Expenses:Grocery
+
+2013-11-14 * "MACY'S #003 HERALD SNEW YORK / 00307963916 MACY'S"
+  Liabilities:CreditCard:Amex  -56.43 USD
+  Expenses:Shopping
+
+2013-11-15 * "WHOLEFDS HOU 10236 02124201320 / 042402720282124201320"
+  Liabilities:CreditCard:Amex  -13 USD
+  Expenses:Grocery
+
+2013-11-16 * "LES CAFES 400 LAFAYENEW YORK / 10156320131 2157761076"
+  Liabilities:CreditCard:Amex  -7 USD
+  Expenses:Food
+
+

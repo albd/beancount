@@ -1,0 +1,3 @@
+[submodule "docker/smart_importer"]
+	path = docker/smart_importer
+	url = https://github.com/beancount/smart_importer.git

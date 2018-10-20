@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+"""Example import configuration."""
+
+# Insert our custom importers path here.
+# (In practice you might just change your PYTHONPATH environment.)
+import sys
+from os import path
+sys.path.insert(0, path.join(path.dirname(__file__)))
+
+
+from beancount.ingest import extract
+#from beancount.ingest.importers import ofx
+import ofx_smart
+
+
+# Setting this variable provides a list of importer instances.
+CONFIG = [
+    ofx_smart.Importer("379700001111222",
+                 "Liabilities:CreditCard:Amex",
+                 "Amex"),
+]
