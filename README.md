@@ -12,4 +12,6 @@ The accounts are automatically added by [smart-importer](https://github.com/bean
 Notice the accounts are added incorrectly for transactions not present in example.beancount  
 
 Any other bean command can be excecuted:  
-sudo docker run -v $(pwd):/data angere/beancount [bean-command]
+sudo docker run -v $(pwd):/data angere/beancount [bean-command]  
+
+sudo docker run angere/beancount bean-price -e USD:yahoo/NVDA
